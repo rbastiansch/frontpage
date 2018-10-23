@@ -1,0 +1,15 @@
+#topo{
+	height: 150px;
+	background-color: #4682B4;
+}
+#menu ul li{
+	display: inline-table;
+	padding: 65px 40px;
+}
+#menu ul li:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+}
