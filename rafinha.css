@@ -14,3 +14,12 @@
 	color: white;
 	font-family: Berlin Sans FB;
 }
+#conteudo {
+   padding: 50px;
+   padding-bottom: 500px;   /* Mesma Altura do Rodapé */
+}
+#rodape_site{
+	height: 200px;
+	background-color: #4682B4;
+	clear: both;
+}
