@@ -7,19 +7,27 @@
 	padding: 65px 70px;
 }
 #menu ul li:hover{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5); /* um 0 para cada cor/valor (Red,
+	Green, Blue) e mais um valor para a tonalidade */
 }
 #menu ul li a{
 	text-decoration: none;
 	color: white;
 	font-family: Berlin Sans FB;
 }
-#conteudo {
-   padding: 50px;
-   padding-bottom: 500px;   /* Mesma Altura do Rodapé */
+#corpo {
+   padding: 60px 15px;
+
 }
 #rodape_site{
 	height: 200px;
 	background-color: #4682B4;
 	clear: both;
+}
+#conteudo{
+	width: 90%;
+	max-width: 600px; /* para ocupar só 600px no desktop, e no mobile 
+	ficar legal */
+	margin: 0 auto; /* 0 é para cima e para baixo e o auto vai centralizar
+	a div */
 }
