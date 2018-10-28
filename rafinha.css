@@ -1,14 +1,16 @@
 #topo{
 	height: 150px;
 	background-color: #4682B4;
+	border-radius: 20px 20px 0px 0px;
 }
 #menu ul li{
 	display: inline-table;
 	padding: 65px 70px;
 }
-#menu ul li:hover{
+#menu ul li:hover{ /* comando para personalizar a seleção dos botões*/
 	background-color: rgba(0,0,0,0.5); /* um 0 para cada cor/valor (Red,
 	Green, Blue) e mais um valor para a tonalidade */
+	border-radius: 100px;
 }
 #menu ul li a{
 	text-decoration: none;
@@ -23,11 +25,16 @@
 	height: 200px;
 	background-color: #4682B4;
 	clear: both;
+	border-radius: 0px 0px 20px 20px;
 }
 #conteudo{
-	width: 90%;
+	width: 90%; /*definimos a largura do box*/
 	max-width: 600px; /* para ocupar só 600px no desktop, e no mobile 
 	ficar legal */
-	margin: 0 auto; /* 0 é para cima e para baixo e o auto vai centralizar
+	margin: 0 auto; /* margin é para afastar os objetos das bordas do 
+	navegador. 0 é para cima e para baixo e o auto vai centralizar
 	a div */
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 20px; /* definimos o quão arredondado irá ficar o box */
+	padding: 90px 70px; /* para afastar a borda do texto*/
 }
